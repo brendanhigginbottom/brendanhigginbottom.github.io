@@ -3,14 +3,20 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>collapsible test</title>
-      <link rel="stylesheet" href="style.css" />
-     
+  <title>Brendan Higginbottom Resume</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-
- 
-<button type="button" class="collapsible">Open Section 1</button>
+  <div>
+    <h1>Brendan Higginbottom</h1>
+    <p>text describing me (in the example may not need)</p>
+  </div>
+  
+  <div class="exp-header">
+    <h3>Professional Experience</h3>
+  </div>
+    
+  <button type="button" class="collapsible">Operations Specialist</button>
 <div class="content">
   <div>
     <h4>Location1</h4>
@@ -24,7 +30,7 @@
     </ul>
   </div>
 </div>
-<button type="button" class="collapsible">Open Section 2</button>
+<button type="button" class="collapsible">Realtime Captioner</button>
 <div class="content">
   <div>
     <h4>Location2</h4>
@@ -38,7 +44,7 @@
     </ul>
   </div>
 </div>
-<button type="button" class="collapsible">Open Section 3</button>
+<button type="button" class="collapsible">Editor</button>
 <div class="content">
   <div>
     <h4>Location3</h4>
@@ -52,20 +58,52 @@
     </ul>
   </div>
 </div>
-  <button type="button" class="collapsible">Open Section 4</button>
+  
+  <div class="edu-header">
+    <h3>Educational Experience</h3>
+  </div>
+  
+  <button type="button" class="collapsible">Education</button>
 <div class="content">
   <div>
-    <h4>Interests/links</h4>
-    
-    <ul>
-      <li>things accomplished in the role - what I'm proud of</li>
-      <li></li>
-      <li></li>
-    </ul>
+    <h5>Masters</h5>
+    <h6>location and date</h6>
   </div>
-</div>
+  <div>
+    <h5>Undergrad</h5>
+    <h6>location and date</h6>
+  </div>
+  </div>
   
-  <script>
+   <div class="links-header">
+    <h3>Links</h3>
+  </div>
+  
+  <button type="button" class="collapsible">Social Media</button>
+<div class="content">
+  <div>
+    <h5>Masters</h5>
+    <h6>location and date</h6>
+  </div>
+  <div>
+    <h5>Undergrad</h5>
+    <h6>location and date</h6>
+  </div>
+  </div>
+  
+  <button type="button" class="collapsible">Projects</button>
+<div class="content">
+  <div>
+    <h5>Masters</h5>
+    <h6>location and date</h6>
+  </div>
+  <div>
+    <h5>Undergrad</h5>
+    <h6>location and date</h6>
+  </div>
+  </div>
+      
+   <script>
     var coll = document.getElementsByClassName("collapsible");
 var i;
 
@@ -82,5 +120,6 @@ for (i = 0; i < coll.length; i++) {
 }
   </script>
 
+  
 </body>
 </html>
